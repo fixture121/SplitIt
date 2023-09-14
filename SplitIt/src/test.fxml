@@ -1,0 +1,23 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import javafx.scene.control.TextArea?>-->
+<!--<?import javafx.scene.control.TextField?>-->
+<!--<?import javafx.scene.layout.Pane?>-->
+<!--<?import javafx.scene.layout.VBox?>-->
+
+
+<!--<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">-->
+<!--   <children>-->
+<!--      <VBox layoutX="200.0" layoutY="100.0" prefHeight="170.0" prefWidth="200.0">-->
+<!--         <children>-->
+<!--            <TextField text="Gas - John   $55" />-->
+<!--            <TextField text="Snacks - Toufiq   $20" />-->
+<!--            <TextField text="Airbnb - Syed   $150" />-->
+<!--            <TextField text="Dinner - Fahad   $110" />-->
+<!--            <TextArea prefHeight="26.0" prefWidth="159.0" />-->
+<!--            <TextField text="Total:   $335" />-->
+<!--            <TextField text="My Total:   $63.75" />-->
+<!--         </children>-->
+<!--      </VBox>-->
+<!--   </children>-->
+<!--</Pane>-->

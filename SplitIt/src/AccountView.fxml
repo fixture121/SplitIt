@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<StackPane fx:controller="AccountController" xmlns:fx="http://javafx.com/fxml" prefHeight="600.0" prefWidth="600.0">
+    <VBox alignment="CENTER" spacing="10">
+        <Label text="My Account" />
+        <Label fx:id="accountLabel" />
+        <Button text="Create New Expense List" onAction="#handleCreateNewListButtonAction" />
+        <Button text="Join Expense List" onAction="#handleJoinListButtonAction" />
+        <Label text="Your Expense Lists:" />
+        <Button text="List 1" onAction="#handleList1ButtonAction" />
+        <Label fx:id="yourListsLabel" />
+        <Button text="Logout" onAction="#handleLogoutButtonAction" />
+    </VBox>
+</StackPane>

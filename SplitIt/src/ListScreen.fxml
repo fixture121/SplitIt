@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+
+<StackPane fx:controller="ListScreenController" xmlns:fx="http://javafx.com/fxml" prefHeight="400.0" prefWidth="400.0">
+    <VBox alignment="CENTER" spacing="10">
+        <Label text="List 1" />
+        <Label fx:id="list1Label" />
+        <Label fx:id="item1" text="Gas - John   $55" />
+        <Label fx:id="item2" text="Snacks - Toufiq   $20" />
+        <Label fx:id="item3" text="Airbnb - Syed   $150" />
+        <Label fx:id="item4" text="Dinner - Fahad   $110" />
+        <Label fx:id="item5" text="Total:   $335" />
+        <Label fx:id="item6" text="My Total:   $63.75" />
+        <Button text="+" onAction="#handleAddNewExpenseButtonAction" />
+        <Button text="Back" onAction="#handleBackButtonAction" />
+    </VBox>
+</StackPane>
